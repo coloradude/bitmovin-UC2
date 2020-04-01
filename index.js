@@ -20,7 +20,7 @@ if (HEVC === 'probably'){
   source.dash = 'https://bitmovin-a.akamaihd.net/content/multi-codec/vp9/stream.mpd'
   console.log('Playing VP9')
 } else {
-  source.dash = 'https://bitmovin-test-stephen-2.s3-us-west-2.amazonaws.com/encoded/manifest.mpd'
+  source.dash = 'https://bitmovin-a.akamaihd.net/content/multi-codec/h264/stream.mpd'
   console.log('Playing AVC')
 }
 
